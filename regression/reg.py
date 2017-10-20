@@ -49,6 +49,8 @@ def best_fit_slope_and_intercept(xs, ys):
     return m, b
 
 
+
+
 m, b = best_fit_slope_and_intercept(xs, ys)
 
 reg_line = [(m*x+b) for x in xs]
